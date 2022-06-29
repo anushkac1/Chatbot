@@ -1,0 +1,185 @@
+version: "3.1"
+
+nlu:
+- intent: enter_zipcode
+  examples:
+  - [99149](zipcode)
+  - [99109](zipcode)
+  - [02345](zipcode)
+  - My zipcode is [02345](zipcode)
+  - Here is my zipcode [02345](zipcode)
+  - I live near [02345](zipcode)
+  - I live in [02345](zipcode)
+  - My zipcode is [99109](zipcode)
+  - Here is my zipcode [99109](zipcode)
+  - I live near [99109](zipcode)
+  - I live in [99109](zipcode)
+  - My zipcode is [99149](zipcode)
+  - Here is my zipcode [99149](zipcode)
+  - I live near [99149](zipcode)
+  - I live in [99149](zipcode)
+
+- intent: enter_genre
+  examples:
+    - I like [fiction](genre)
+    - I like [fantasy](genre)
+    - I like [action](genre)
+    - I like [horror](genre)
+    - I like [thriller](genre)
+    - I like [nonfiction](genre)
+    - I like [biographies](genre)
+    - I want to read [fiction](genre)
+    - I want to read [fantasy](genre)
+    - I want to read [action](genre)
+    - I want to read [horror](genre)
+    - I want to read [thriller](genre)
+    - I want to read [nonfiction](genre)
+    - I want to read [biographies]](genre)
+    - [fiction](genre)
+    - [fantasy](genre)
+    - [action](genre)
+    - [horror](genre)
+    - [thriller](genre)
+    - [nonfiction](genre)
+    - [biographies](genre)
+  
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sounds like a good book!
+    - I want to read it
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - I don't like that book
+    - I don't want to read it
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good, wbu
+    - what about you
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - bad, wbu
+    - what about you 
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: book_recommendations 
+  examples: |
+    - what is a good book to read?
+    - can you recommend me something to read? 
+    - I don't know what book to start with 
+    - can you help me find something to read?
+    - what do you recommend I read first?
+
+- intent: chatbot_rating
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 989392389
+    - bad
+    - good
+    - horrible
+    - amazing
+
+- intent: book_find
+  examples: |
+    - where can I find this book near me?
+    - is the book available nearby?
+    - do local libraries have this book?
+    - can you help me find this book?
+    - where?
+    - find
+    - give me a location for this book
+
+- intent: change_mind
+  examples: |
+    - I want to change my genre
+    - Can I change my genre?
+    - change my mind
+    - I don't like these books at all
+    - can you give me soemthing else?
+
+    
+
+
